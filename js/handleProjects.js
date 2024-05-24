@@ -7,7 +7,8 @@ const projects = [
     description:
       "A login page, made in Angular TS, made to practice and improve my programming logic.",
     path: "https://newsletter-signup-octtadev.vercel.app/",
-    image: "../assets/vector/image.png",
+    image:
+      "https://newsletter-signup-octtadev.vercel.app/assets/images/illustration-sign-up-mobile.svg",
   },
   {
     Id: 1,
@@ -29,7 +30,7 @@ function handleProjects() {
     // Verifique se o título não está vazio
     if (project.title) {
       projectContainer.innerHTML += `<div class="flex flex-col gap-2 items-center w-[300px] h-96 bg-zinc-800/80 rounded-xl backdrop-blur-2xl">
-        <img src="${project.image}" class="rounded-t-xl"/>
+        <img src="${project.image}" class="max-h-40 w-full rounded-t-xl"/>
 
         <div class="flex flex-col gap-2 items-left w-full px-3">
          <h1 class="text-white text-xl font-semibold">${project.title}</h1>
