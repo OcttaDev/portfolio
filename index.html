@@ -1,194 +1,372 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <title>Otavio Augusto</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./js/tailwind.config.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-</head>
-</head>
+  </head>
 
-<body class="w-full h-screen bg-zinc-950 flex flex-col lg:flex-row justify-between items-center px-4 py-5 lg:py-0 font-sans gap-10 lg:gap-0">
-
+  <body
+    class="w-full h-screen bg-zinc-950 flex flex-col lg:flex-row justify-between items-center px-4 py-5 lg:py-0 font-sans gap-10 lg:gap-0"
+  >
     <!--SIDEBAR-->
     <header
-        class="bg-zinc-900 h-[97%] w-[90%] lg:w-[20%] py-5 flex flex-col items-center rounded-xl shadow-2xl shadow-black box-border">
-        <section class="flex flex-col items-center">
-            <div>
-                <img src="https://avatars.githubusercontent.com/u/127272659?v=4" alt="vector"
-                    class="w-40 h-40 rounded-md z-10 relative">
-            </div>
-            <div class="mt-2 absolute lg:fixed top-52">
-                <div class="flex items-center">
-                    <h1 class="text-zinc-700 font-bold text-2xl" id="typing-container"></h1>
-                </div>
-            </div>
-        </section>
-        <nav class="w-full flex justify-center mt-20">
-            <ul class="flex flex-col gap-10 ">
-                <li>
-                    <a href="https://github.com/OcttaDev" target="_blank" rel="external" class="flex items-center gap-4 text-white">
-                        <img src="./assets/icons/github.svg" alt="vector">
-                        <div>
-                            <span class="text-zinc-700 font-bold">GITHUB</span>
-                            <p class="text-ellipsis overflow-hidden text-zinc-400 max-w-[200px]">
-                                https://github.com/OcttaDev</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/otavio-augusto-387626273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="external" class="flex items-center gap-4 text-white">
-                        <img src="./assets/icons/linkedin.svg" alt="vector">
-                        <div>
-                            <span class="text-zinc-700 font-bold">LINKEDIN</span>
-                            <p class="text-ellipsis overflow-hidden text-zinc-400">Otávio Augusto</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="aotavio061@gmail.com" target="_blank" rel="external" class="flex items-center gap-4 text-white">
-                        <img src="./assets/icons/inbox.svg" alt="vector">
-                        <div>
-                            <span class="text-zinc-700 font-bold">EMAIL</span>
-                            <p class="text-ellipsis overflow-hidden text-zinc-400">aotavio061@gmail.com</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="./assets/cv.pdf" target="_blank" rel="external" download="cv-otavio" class="flex items-center gap-4 text-white">
-                        <img src="./assets/icons/scroll.svg" alt="vector">
-                        <div>
-                            <span class="text-zinc-700 font-bold">CV</span>
-                            <p class="text-ellipsis overflow-hidden text-zinc-400">Download CV</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <footer class="absolute bottom-1 bg-zinc-900 w-52 text-center rounded-xl shadow-2xl shadow-black">
-            <p class="text-zinc-400 font-thin font-sans">Created by @OcttaDev</p>
-        </footer>
+      class="bg-zinc-900 h-[97%] w-[90%] lg:w-[20%] py-5 flex flex-col items-center rounded-xl shadow-2xl shadow-black box-border"
+    >
+      <section class="flex flex-col items-center">
+        <div>
+          <img
+            src="https://avatars.githubusercontent.com/u/127272659?v=4"
+            alt="vector"
+            class="w-40 h-40 rounded-md z-10 relative"
+          />
+        </div>
+        <div class="mt-2 absolute lg:fixed top-52">
+          <div class="flex items-center">
+            <h1
+              class="text-zinc-700 font-bold text-2xl"
+              id="typing-container"
+            ></h1>
+          </div>
+        </div>
+      </section>
+      <nav class="w-full flex justify-center mt-20">
+        <ul class="flex flex-col gap-10">
+          <li>
+            <a
+              href="https://github.com/OcttaDev"
+              target="_blank"
+              rel="external"
+              class="flex items-center gap-4 text-white"
+            >
+              <img src="./assets/icons/github.svg" alt="vector" />
+              <div>
+                <span class="text-zinc-700 font-bold">GITHUB</span>
+                <p
+                  class="text-ellipsis overflow-hidden text-zinc-400 max-w-[200px]"
+                >
+                  https://github.com/OcttaDev
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/otavio-augusto-387626273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              rel="external"
+              class="flex items-center gap-4 text-white"
+            >
+              <img src="./assets/icons/linkedin.svg" alt="vector" />
+              <div>
+                <span class="text-zinc-700 font-bold">LINKEDIN</span>
+                <p class="text-ellipsis overflow-hidden text-zinc-400">
+                  Otávio Augusto
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="aotavio061@gmail.com"
+              target="_blank"
+              rel="external"
+              class="flex items-center gap-4 text-white"
+            >
+              <img src="./assets/icons/inbox.svg" alt="vector" />
+              <div>
+                <span class="text-zinc-700 font-bold">EMAIL</span>
+                <p class="text-ellipsis overflow-hidden text-zinc-400">
+                  aotavio061@gmail.com
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="./assets/cv.pdf"
+              target="_blank"
+              rel="external"
+              download="cv-otavio"
+              class="flex items-center gap-4 text-white"
+            >
+              <img src="./assets/icons/scroll.svg" alt="vector" />
+              <div>
+                <span class="text-zinc-700 font-bold">CV</span>
+                <p class="text-ellipsis overflow-hidden text-zinc-400">
+                  Download CV
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <footer
+        class="absolute bottom-1 bg-zinc-900 w-52 text-center rounded-xl shadow-2xl shadow-black"
+      >
+        <p class="text-zinc-400 font-thin font-sans">Created by @OcttaDev</p>
+      </footer>
     </header>
 
-    <main class="bg-zinc-900 w-[90%] lg:w-[78%] lg:h-[97%] rounded-xl relative lg:overflow-y-auto lg:[&::-webkit-scrollbar]:hidden">
-        <nav
-            class="w-[400px] h-14 bg-zinc-800/30 fixed right-4 rounded-bl-3xl rounded-tr-xl backdrop-blur-2xl hidden lg:flex items-center justify-end px-5 z-10">
-            <ul class="flex gap-10">
-                <li>
-                    <button onclick="handleAncor('#home')"
-                        class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400">Home</button>
-                </li>
-                <li>
-                    <button onclick="handleAncor('#about-me')"
-                        class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400">About-me</button>
-                </li>
-                <li>
-                    <button onclick="handleAncor('#projects')"
-                        class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400">Projects</button>
-                </li>
-                <li>
-                    <button onclick="handleAncor('#skills')"
-                        class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400">Skills</button>
-                </li>
-            </ul>
-        </nav>
+    <main
+      class="bg-zinc-900 w-[90%] lg:w-[78%] lg:h-[97%] rounded-xl relative lg:overflow-y-auto lg:[&::-webkit-scrollbar]:hidden"
+    >
+      <nav
+        class="w-[400px] h-14 bg-zinc-800/30 fixed right-4 rounded-bl-3xl rounded-tr-xl backdrop-blur-2xl hidden lg:flex items-center justify-end px-5 z-10"
+      >
+        <ul class="flex gap-10">
+          <li>
+            <button
+              onclick="handleAncor('#home')"
+              class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400"
+            >
+              Home
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="handleAncor('#about-me')"
+              class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400"
+            >
+              About-me
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="handleAncor('#projects')"
+              class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400"
+            >
+              Projects
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="handleAncor('#skills')"
+              class="text-zinc-400 font-semibold active:border-b-2 active:border-b-zinc-400"
+            >
+              Skills
+            </button>
+          </li>
+        </ul>
+      </nav>
 
-        <section id="home" class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative gap-10 lg:gap-0">
-            <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">Home</h1>
+      <section
+        id="home"
+        class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative gap-10 lg:gap-0"
+      >
+        <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">
+          Home
+        </h1>
 
-            <div class="flex flex-col mt-20 lg:mt-0">
-                <h1 class="text-3xl font-bold text-zinc-400">Welcome to my portfolio</h1>
-                <p class="text-zinc-400 mt-4 max-w-[700px]">
-                    Transform your ideas into cutting-edge digital solutions with our fullstack development service.
-                    Let’s build the future of your business together! I use the most modern and efficient technologies
-                    to deliver a product that not only meets, but exceeds your expectations.
-                </p>
-                <button onclick="handleAncor('https://www.linkedin.com/in/otavio-augusto-387626273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')"
-                    class="w-60 h-10 bg-zinc-600 mt-10 rounded-md text-zinc-200 text-xl hover:bg-zinc-700/80 transition-all">Contact-me</button>
-            </div>
-            <div>
-                <img src="./assets/vector/vetor.svg" alt="vector" class="w-96">
-            </div>
-        </section>
-        <section id="about-me" class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative gap-10 lg:gap-0">
-            <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">About-me</h1>
+        <div class="flex flex-col mt-20 lg:mt-0">
+          <h1 class="text-3xl font-bold text-zinc-400">
+            Welcome to my portfolio
+          </h1>
+          <p class="text-zinc-400 mt-4 max-w-[700px]">
+            Transform your ideas into cutting-edge digital solutions with our
+            fullstack development service. Let’s build the future of your
+            business together! I use the most modern and efficient technologies
+            to deliver a product that not only meets, but exceeds your
+            expectations.
+          </p>
+          <button
+            onclick="handleAncor('https://www.linkedin.com/in/otavio-augusto-387626273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')"
+            class="w-60 h-10 bg-zinc-600 mt-10 rounded-md text-zinc-200 text-xl hover:bg-zinc-700/80 transition-all"
+          >
+            Contact-me
+          </button>
+        </div>
+        <div>
+          <img src="./assets/vector/vetor.svg" alt="vector" class="w-96" />
+        </div>
+      </section>
+      <section
+        id="about-me"
+        class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative gap-10 lg:gap-0"
+      >
+        <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">
+          About-me
+        </h1>
 
-            <div class="flex flex-col mt-20 lg:mt-0">
-                <h1 class="text-3xl font-bold text-zinc-400">Hello, my name is <span class="text-white">Otávio</span>
-                </h1>
-                <p class="text-zinc-400 mt-4 max-w-[700px]">
-                    Having worked as a developer for three years, I have specialized in creating and optimizing web
-                    solutions and robust systems. My passion is transforming complex problems into efficient and
-                    intuitive solutions, ensuring the best experience for end users.
-                </p>
+        <div class="flex flex-col mt-20 lg:mt-0">
+          <h1 class="text-3xl font-bold text-zinc-400">
+            Hello, my name is <span class="text-white">Otávio</span>
+          </h1>
+          <p class="text-zinc-400 mt-4 max-w-[700px]">
+            Having worked as a developer for three years, I have specialized in
+            creating and optimizing web solutions and robust systems. My passion
+            is transforming complex problems into efficient and intuitive
+            solutions, ensuring the best experience for end users.
+          </p>
 
-                <div class="flex flex-col gap-5 mt-10">
-                    <span class="flex items-center gap-2">
-                        <img src="./assets/icons/briefcase-business.svg" alt="vector">
-                        <p class="text-zinc-700 font-bold">Fullstack Developer</p>
-                    </span>
-                    <span class="flex items-center gap-2">
-                        <img src="./assets/icons/languages.svg" alt="vector">
-                        <p class="text-zinc-700 font-bold">Português BR</p>
-                    </span>
-                    <span class="flex items-center gap-2">
-                        <img src="./assets/icons/sparkles.svg" alt="vector">
-                        <p class="text-zinc-700 font-bold">Freelancer</p>
-                    </span>
-                </div>
-            </div>
-            <div>
-                <img src="https://avatars.githubusercontent.com/u/127272659?v=4" alt="vector"
-                    class="w-80 rounded-bl-[200px] rounded-br-[100px] rounded-tr-[100px] rounded-tl-[600px]">
-            </div>
-        </section>
-        <section id="projects" class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative">
-            <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">Projects</h1>
+          <div class="flex flex-col gap-5 mt-10">
+            <span class="flex items-center gap-2">
+              <img src="./assets/icons/briefcase-business.svg" alt="vector" />
+              <p class="text-zinc-700 font-bold">Fullstack Developer</p>
+            </span>
+            <span class="flex items-center gap-2">
+              <img src="./assets/icons/languages.svg" alt="vector" />
+              <p class="text-zinc-700 font-bold">Português BR</p>
+            </span>
+            <span class="flex items-center gap-2">
+              <img src="./assets/icons/sparkles.svg" alt="vector" />
+              <p class="text-zinc-700 font-bold">Freelancer</p>
+            </span>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://avatars.githubusercontent.com/u/127272659?v=4"
+            alt="vector"
+            class="w-80 rounded-bl-[200px] rounded-br-[100px] rounded-tr-[100px] rounded-tl-[600px]"
+          />
+        </div>
+      </section>
+      <section
+        id="projects"
+        class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative"
+      >
+        <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">
+          Projects
+        </h1>
 
-            <div id="container-projects" class="flex flex-col lg:flex-row lg:justify-evenly items-center w-full gap-10 lg:gap-0 mt-20 lg:mt-0"></div>
-        </section>
-        <section id="skills" class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative gap-10 lg:gap-0 my-20">
-            <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">Skills</h1>
+        <div
+          id="container-projects"
+          class="flex flex-col lg:flex-row lg:justify-evenly items-center w-full gap-10 lg:gap-0 mt-20 lg:mt-0"
+        ></div>
+      </section>
+      <section
+        id="skills"
+        class="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:h-full p-5 relative gap-10 lg:gap-0 my-20"
+      >
+        <h1 class="text-2xl font-bold text-zinc-400 absolute top-5 left-5">
+          Skills
+        </h1>
 
-            <div class="flex flex-col gap-2 mt-20 lg:mt-0">
-                <div class="flex flex-wrap items-center items-center  gap-10">
-                    <box-icon name='javascript' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon name='nodejs' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon name='react' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon name='git' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon name='github' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon name='figma' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon name='python' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon type='logo' size="lg" name='bootstrap' color='#ffffff'></box-icon>
-                    <box-icon type='logo' size="lg" name='angular' color='#ffffff'></box-icon>
-                    <box-icon name='typescript' size="lg" type="logo"  color='#ffffff' ></box-icon>
-                    <box-icon name='pyramid' size="lg"  color='#ffffff' ></box-icon>
-                    <box-icon type='logo' size="lg" name='postgresql' color='#ffffff'></box-icon>
-                    <box-icon type='logo' size="lg" name='firebase'  color='#ffffff'></box-icon>
-                    <box-icon type='logo' size="lg" name='django' color='#ffffff'></box-icon>
-                    <box-icon type='logo' size="lg" name='tailwind-css' color='#ffffff'></box-icon>
-                </div>
-                <a href="./assets/cv.pdf" download="dv-otavio" class="mt-10 w-40 h-10 flex justify-center items-center bg-zinc-600 rounded-md text-zinc-200 text-xl hover:bg-zinc-700/80 transition-all">Ver mais</a>
-            </div>
-            <div class="flex flex-col text-right">
-                <h1 class="text-3xl font-bold text-zinc-400 ">Soft Skills</h1>
-                <p class="text-zinc-400 mt-4 max-w-[700px]">These are some of my skills presented objectively</p>
-                <div class="mt-10 flex items-center gap-2 justify-end" >
-                    <box-icon name='html5' size="lg" type='logo' color='#ffffff'></box-icon>
-                    <box-icon type='logo' size="lg" name='css3' color='#ffffff'></box-icon>
-                </div>
-            </div>
-        </section>
+        <div class="flex flex-col gap-2 mt-20 lg:mt-0">
+          <div class="flex flex-wrap items-center items-center gap-10">
+            <box-icon
+              name="javascript"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="nodejs"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="react"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="git"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="github"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="figma"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="python"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="bootstrap"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="angular"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              name="typescript"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon name="pyramid" size="lg" color="#ffffff"></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="postgresql"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="firebase"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="django"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="tailwind-css"
+              color="#ffffff"
+            ></box-icon>
+          </div>
+          <a
+            href="./assets/cv.pdf"
+            download="dv-otavio"
+            class="mt-10 w-40 h-10 flex justify-center items-center bg-zinc-600 rounded-md text-zinc-200 text-xl hover:bg-zinc-700/80 transition-all"
+            >Ver mais</a
+          >
+        </div>
+        <div class="flex flex-col text-right">
+          <h1 class="text-3xl font-bold text-zinc-400">Soft Skills</h1>
+          <p class="text-zinc-400 mt-4 max-w-[700px]">
+            These are some of my skills presented objectively
+          </p>
+          <div class="mt-10 flex items-center gap-2 justify-end">
+            <box-icon
+              name="html5"
+              size="lg"
+              type="logo"
+              color="#ffffff"
+            ></box-icon>
+            <box-icon
+              type="logo"
+              size="lg"
+              name="css3"
+              color="#ffffff"
+            ></box-icon>
+          </div>
+        </div>
+      </section>
     </main>
-
 
     <script src="./animations/description.js"></script>
     <script src="./js/handleProjects.js"></script>
     <script src="./js/handleAncor.js"></script>
-</body>
-
+  </body>
 </html>
