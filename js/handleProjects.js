@@ -19,6 +19,15 @@ const projects = [
     image:
       "https://tse3.mm.bing.net/th?id=OIP.NZ2j97zvyHF-EwJTpeQsGwHaGW&pid=Api&P=0&h=180",
   },
+  {
+    Id: 2,
+    title: "Contact-us OcttaDev",
+    description:
+      "Do you want to create a new digital project? Access and send your demand. This project was developed with Next.Ts and tailwind.",
+    path: "https://contact-us-oct.vercel.app/",
+    image:
+      "https://tse1.mm.bing.net/th?id=OIP.A_f7nhwsPd7ixxBfcIssFwHaE8&pid=Api&P=0&h=180",
+  },
 ];
 
 function handleRedirect(path) {
